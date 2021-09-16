@@ -17,6 +17,7 @@ const HeaderPopover = (props) => {
 								<img
 									className="h-8 w-auto sm:h-10"
 									src="./assets/images/kalvo_fix_logo_only_transparent.png"
+									alt="Kalvo.co Logo"
 								/>
 							</a>
 							<div className="-mr-2 flex items-center md:hidden">
@@ -66,7 +67,7 @@ const HeaderPopover = (props) => {
 								<img
 									className="h-8 w-auto"
 									src="./assets/images/kalvo_fix_logo_only_transparent.png"
-									alt=""
+									alt="Kalvo.co Logo"
 								/>
 							</div>
 							<div className="-mr-2">
