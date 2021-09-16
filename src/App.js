@@ -16,7 +16,7 @@ const App = () => {
 		<div>
 			<Header navigation={navigation} />
 			<About />
-			{/* <Product /> */}
+			<Product />
 		</div>
 	);
 };

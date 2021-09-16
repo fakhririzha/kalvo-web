@@ -3,30 +3,10 @@ const Product = () => {
 		<div className="w-full bg-white p-12">
 			<div className="header flex items-end justify-between mb-12">
 				<div className="title">
-					<p className="text-4xl font-bold text-gray-800 mb-4">
-						Lastest articles
-					</p>
+					<p className="text-4xl font-bold text-gray-800 mb-4">Our services</p>
 					<p className="text-2xl font-light text-gray-400">
-						All article are verified by 2 experts and valdiate by the CTO
+						We guarantee a professional quality for each service provided.
 					</p>
-				</div>
-				<div className="text-end">
-					<form className="flex flex-col md:flex-row w-3/4 md:w-full max-w-sm md:space-x-3 space-y-3 md:space-y-0 justify-center">
-						<div className=" relative ">
-							<input
-								type="text"
-								id='"form-subscribe-Search'
-								className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
-								placeholder="Enter a title"
-							/>
-						</div>
-						<button
-							className="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-purple-600 rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-purple-200"
-							type="submit"
-						>
-							Search
-						</button>
-					</form>
 				</div>
 			</div>
 			<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12">
@@ -34,31 +14,26 @@ const Product = () => {
 					<a href="#" className="w-full block h-full">
 						<img
 							alt="blog photo"
-							src="/images/blog/1.jpg"
+							src="./assets/images/web-dev.png"
 							className="max-h-40 w-full object-cover"
 						/>
 						<div className="bg-white dark:bg-gray-800 w-full p-4">
-							<p className="text-indigo-500 text-md font-medium">Video</p>
 							<p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
-								Work at home
+								Web Design & Development
 							</p>
 							<p className="text-gray-400 dark:text-gray-300 font-light text-md">
-								Work at home, remote, is the new age of the job, every person
-								can work at home....
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Obcaecati, sapiente.
 							</p>
-							<div className="flex items-center mt-4">
-								<a href="#" className="block relative">
-									<img
-										alt="profil"
-										src="/images/person/6.jpg"
-										className="mx-auto object-cover rounded-full h-10 w-10 "
-									/>
-								</a>
-								<div className="flex flex-col justify-between ml-4 text-sm">
-									<p className="text-gray-800 dark:text-white">Jean Jacques</p>
-									<p className="text-gray-400 dark:text-gray-300">
-										20 mars 2029 - 6 min read
-									</p>
+							<div className="flex flex-wrap justify-starts items-center mt-4">
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#PHP
+								</div>
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#CodeIgniter
+								</div>
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#React.js
 								</div>
 							</div>
 						</div>
@@ -68,30 +43,23 @@ const Product = () => {
 					<a href="#" className="w-full block h-full">
 						<img
 							alt="blog photo"
-							src="/images/blog/2.jpg"
+							src="./assets/images/photography.png"
 							className="max-h-40 w-full object-cover"
 						/>
 						<div className="bg-white dark:bg-gray-800 w-full p-4">
-							<p className="text-indigo-500 text-md font-medium">Oui</p>
 							<p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
-								test
+								Photography
 							</p>
 							<p className="text-gray-400 dark:text-gray-300 font-light text-md">
-								The new supercar is here, 543 cv and 140 000$ !!
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Obcaecati, sapiente.
 							</p>
-							<div className="flex items-center mt-4">
-								<a href="#" className="block relative">
-									<img
-										alt="profil"
-										src="/images/person/6.jpg"
-										className="mx-auto object-cover rounded-full h-10 w-10 "
-									/>
-								</a>
-								<div className="flex flex-col justify-between ml-4 text-sm">
-									<p className="text-gray-800 dark:text-white">Jean Jacques</p>
-									<p className="text-gray-400 dark:text-gray-300">
-										20 mars 2029 - 6 min read
-									</p>
+							<div className="flex flex-wrap justify-starts items-center mt-4">
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#Photo
+								</div>
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#Gallery
 								</div>
 							</div>
 						</div>
@@ -101,30 +69,23 @@ const Product = () => {
 					<a href="#" className="w-full block h-full">
 						<img
 							alt="blog photo"
-							src="/images/blog/3.jpg"
+							src="./assets/images/videography.png"
 							className="max-h-40 w-full object-cover"
 						/>
 						<div className="bg-white dark:bg-gray-800 w-full p-4">
-							<p className="text-indigo-500 text-md font-medium">Oui</p>
 							<p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
-								test
+								Videography
 							</p>
 							<p className="text-gray-400 dark:text-gray-300 font-light text-md">
-								The new supercar is here, 543 cv and 140 000$ !!
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Obcaecati, sapiente.
 							</p>
-							<div className="flex items-center mt-4">
-								<a href="#" className="block relative">
-									<img
-										alt="profil"
-										src="/images/person/6.jpg"
-										className="mx-auto object-cover rounded-full h-10 w-10 "
-									/>
-								</a>
-								<div className="flex flex-col justify-between ml-4 text-sm">
-									<p className="text-gray-800 dark:text-white">Jean Jacques</p>
-									<p className="text-gray-400 dark:text-gray-300">
-										20 mars 2029 - 6 min read
-									</p>
+							<div className="flex flex-wrap justify-starts items-center mt-4">
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#PremierePro
+								</div>
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#Promotion
 								</div>
 							</div>
 						</div>
@@ -134,30 +95,56 @@ const Product = () => {
 					<a href="#" className="w-full block h-full">
 						<img
 							alt="blog photo"
-							src="/images/blog/4.jpg"
+							src="./assets/images/motion-graphic.png"
 							className="max-h-40 w-full object-cover"
 						/>
 						<div className="bg-white dark:bg-gray-800 w-full p-4">
-							<p className="text-indigo-500 text-md font-medium"></p>
 							<p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
-								test
+								Motion Graphic
 							</p>
 							<p className="text-gray-400 dark:text-gray-300 font-light text-md">
-								The new supercar is here, 543 cv and 140 000$ !!
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Obcaecati, sapiente.
 							</p>
-							<div className="flex items-center mt-4">
-								<a href="#" className="block relative">
-									<img
-										alt="profil"
-										src="/images/person/6.jpg"
-										className="mx-auto object-cover rounded-full h-10 w-10 "
-									/>
-								</a>
-								<div className="flex flex-col justify-between ml-4 text-sm">
-									<p className="text-gray-800 dark:text-white">Jean Jacques</p>
-									<p className="text-gray-400 dark:text-gray-300">
-										20 mars 2029 - 6 min read
-									</p>
+							<div className="flex flex-wrap justify-starts items-center mt-4">
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#Blender
+								</div>
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#Unity
+								</div>
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#AfterEffect
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
+					<a href="#" className="w-full block h-full">
+						<img
+							alt="blog photo"
+							src="./assets/images/business-branding.png"
+							className="max-h-40 w-full object-cover"
+						/>
+						<div className="bg-white dark:bg-gray-800 w-full p-4">
+							<p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
+								Business Branding
+							</p>
+							<p className="text-gray-400 dark:text-gray-300 font-light text-md">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Obcaecati, sapiente.
+							</p>
+							<div className="flex flex-wrap justify-starts items-center mt-4">
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#Trend
+								</div>
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#Value
+								</div>
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#Popularity
 								</div>
 							</div>
 						</div>
@@ -167,63 +154,26 @@ const Product = () => {
 					<a href="#" className="w-full block h-full">
 						<img
 							alt="blog photo"
-							src="/images/blog/5.jpg"
+							src="./assets/images/smm.png"
 							className="max-h-40 w-full object-cover"
 						/>
 						<div className="bg-white dark:bg-gray-800 w-full p-4">
-							<p className="text-indigo-500 text-md font-medium"></p>
 							<p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
-								test
+								Social Media Management
 							</p>
 							<p className="text-gray-400 dark:text-gray-300 font-light text-md">
-								The new supercar is here, 543 cv and 140 000$ !!
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Obcaecati, sapiente.
 							</p>
-							<div className="flex items-center mt-4">
-								<a href="#" className="block relative">
-									<img
-										alt="profil"
-										src="/images/person/6.jpg"
-										className="mx-auto object-cover rounded-full h-10 w-10 "
-									/>
-								</a>
-								<div className="flex flex-col justify-between ml-4 text-sm">
-									<p className="text-gray-800 dark:text-white">Jean Jacques</p>
-									<p className="text-gray-400 dark:text-gray-300">
-										20 mars 2029 - 6 min read
-									</p>
+							<div className="flex flex-wrap justify-starts items-center mt-4">
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#Instagram
 								</div>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div className="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">
-					<a href="#" className="w-full block h-full">
-						<img
-							alt="blog photo"
-							src="/images/blog/6.jpg"
-							className="max-h-40 w-full object-cover"
-						/>
-						<div className="bg-white dark:bg-gray-800 w-full p-4">
-							<p className="text-indigo-500 text-md font-medium">Oui</p>
-							<p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
-								test
-							</p>
-							<p className="text-gray-400 dark:text-gray-300 font-light text-md">
-								The new supercar is here, 543 cv and 140 000$ !!
-							</p>
-							<div className="flex items-center mt-4">
-								<a href="#" className="block relative">
-									<img
-										alt="profil"
-										src="/images/person/6.jpg"
-										className="mx-auto object-cover rounded-full h-10 w-10 "
-									/>
-								</a>
-								<div className="flex flex-col justify-between ml-4 text-sm">
-									<p className="text-gray-800 dark:text-white">Jean Jacques</p>
-									<p className="text-gray-400 dark:text-gray-300">
-										20 mars 2029 - 6 min read
-									</p>
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#Facebook
+								</div>
+								<div className="text-xs mr-2 py-1.5 px-4 text-gray-600 bg-blue-100 rounded-2xl">
+									#Ads
 								</div>
 							</div>
 						</div>
