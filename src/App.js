@@ -2,7 +2,7 @@ import "./App.css";
 
 import Header from "./Header/Header";
 import About from "./About/About";
-import Product from "./Product/Product";
+import Services from "./Services/Services";
 
 const App = () => {
 	const navigation = [
@@ -16,7 +16,7 @@ const App = () => {
 		<div>
 			<Header navigation={navigation} />
 			<About />
-			<Product />
+			<Services />
 		</div>
 	);
 };
