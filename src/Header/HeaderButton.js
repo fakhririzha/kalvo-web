@@ -9,14 +9,14 @@ const HeaderButton = () => {
 			<HeaderButtonItem
 				mainClass={"rounded-md shadow"}
 				linkClass={mainClass + " text-white bg-green-600 hover:bg-green-700"}
-				content={"Get started"}
+				content={"Our services"}
 			/>
 			<HeaderButtonItem
 				mainClass={"mt-3 sm:mt-0 sm:ml-3"}
 				linkClass={
 					mainClass + " text-green-700 bg-green-100 hover:bg-green-200"
 				}
-				content={"Contact us"}
+				content={"Learn more"}
 			/>
 		</div>
 	);
